@@ -1,0 +1,139 @@
+print("Conversion Calculator")
+o = 1
+while o < 100:
+    o = o + 1
+    b = input("number: ")
+    a = input("units: ")
+    c = input("desired units: ")
+    if a.capitalize() == "Inches" and c.capitalize() == "Centimeters":
+        d = (float(b)*2.54)
+        print(d)
+    if a.capitalize() == "Inches" and c.capitalize() == "Meters":
+        d = (float(b)*0.0254)
+        print(d)
+    if a.capitalize() == "Inches" and c.capitalize() == "kilometers":
+        d = (float(b)*.0000254)
+        print(d)
+    if a.capitalize() == "Inches" and c.capitalize() == "Millimeters":
+        d = (float(b)*25.4)
+        print(d)
+    if a.capitalize() == "Inches" and c.capitalize() == "Feet":
+        d = (float(b)*0.083)
+        print(d)
+    if a.capitalize() == "Inches" and c.capitalize() == "Yards":
+        d = (float(b)*0.028)
+        print(d)
+    if a.capitalize() == "Inches" and c.capitalize() == "Miles":
+        d = (float(b)*.0000157)
+        print(d)
+    if a.capitalize() == "Centimeters" and c.capitalize() == "Inches":
+        d = (float(b)*.39)
+        print(d)
+    if a.capitalize() == "Centimeters" and c.capitalize() == "Feet":
+        d = (float(b)*.033)
+        print(d)
+    if a.capitalize() == "Centimeters" and c.capitalize() == "Yards":
+        d = (float(b)*.011)
+        print(d)
+    if a.capitalize() == "Centimeters" and c.capitalize() == "Miles":
+        d = (float(b)*.0000062)
+        print(d)
+    if a.capitalize() == "Centimeters" and c.capitalize() == "Meters":
+        d = (float(b)*.01)
+        print(d)
+    if a.capitalize() == "Centimeters" and c.capitalize() == "Kilometers":
+        d = (float(b)*.00001)
+        print(d)
+    if a.capitalize() == "Centimeters" and c.capitalize() == "Millimeters":
+        d = (float(b)*10)
+        print(d)
+    if a.capitalize() == "Miles" and c.capitalize() == "Inches":
+        d = (float(b)*63360.24)
+        print(d)
+    if a.capitalize() == "Miles" and c.capitalize() == "Centimeters":
+        d = (float(b)*160935)
+        print(d)
+    if a.capitalize() == "Miles" and c.capitalize() == "Feet":
+        d = (float(b)*5280.02)
+        print(d)
+    if a.capitalize() == "Miles" and c.capitalize() == "Millimeters":
+        d = (float(b)*1609350)
+        print(d)
+    if a.capitalize() == "Miles" and c.capitalize() == "Kilometers":
+        d = (float(b)*1.61)
+        print(d)
+    if a.capitalize() == "Miles" and c.capitalize() == "Yards":
+        d = (float(b)*1760.01)
+        print(d)
+    if a.capitalize() == "Feet" and c.capitalize() == "Inches":
+        d = (float(b)*12)
+        print(d)
+    if a.capitalize() == "Feet" and c.capitalize() == "Yards":
+        d = (float(b)*.33)
+        print(d)
+    if a.capitalize() == "Feet" and c.capitalize() == "Miles":
+        d = (float(b)*.00019)
+        print(d)
+    if a.capitalize() == "Feet" and c.capitalize() == "Millimeters":
+        d = (float(b)*304.8)
+        print(d)
+    if a.capitalize() == "Feet" and c.capitalize() == "Centimeters":
+        d = (float(b)*30.48)
+        print(d)
+    if a.capitalize() == "Feet" and c.capitalize() == "Kilometers":
+        d = (float(b)*.000304)
+        print(d)
+    if a.capitalize() == "Kilometers" and c.capitalize() == "Feet":
+        d = (float(b)*3280.84)
+        print(d)
+    if a.capitalize() == "Kilometers" and c.capitalize() == "Inches":
+        d = (float(b)*39370.08)
+        print(d)
+    if a.capitalize() == "Kilometers" and c.capitalize() == "Miles":
+        d = (float(b)*.621)
+        print(d)
+    if a.capitalize() == "Kilometers" and c.capitalize() == "Centimeters":
+        d = (float(b)*100000)
+        print(d)
+    if a.capitalize() == "Kilometers" and c.capitalize() == "Millimeters":
+        d = (float(b)*1000000)
+        print(d)
+    if a.capitalize() == "Kilometers" and c.capitalize() == "Yards":
+        d = (float(b)*1093.61)
+        print(d)
+    if a.capitalize() == "Yards" and c.capitalize() == "Miles":
+        d = (float(b)*.00057)
+        print(d)
+    if a.capitalize() == "Yards" and c.capitalize() == "Inches":
+        d = (float(b)*36)
+        print(d)
+    if a.capitalize() == "Yards" and c.capitalize() == "Feet":
+        d = (float(b)*3)
+        print(d)
+    if a.capitalize() == "Yards" and c.capitalize() == "Centimeters":
+        d = (float(b)*91.44)
+        print(d)
+    if a.capitalize() == "Yards" and c.capitalize() == "Millimeters":
+        d = (float(b)*914.4)
+        print(d)
+    if a.capitalize() == "Yards" and c.capitalize() == "Kilometers":
+        d = (float(b)*.000914)
+        print(d)
+    if a.capitalize() == "Milimeters" and c.capitalize() == "Miles":
+        d = (float(b)*.00000062)
+        print(d)
+    if a.capitalize() == "Milimeters" and c.capitalize() == "Kilometers":
+        d = (float(b)*.000001)
+        print(d)
+    if a.capitalize() == "Milimeters" and c.capitalize() == "Centimeters":
+        d = (float(b)*.1)
+        print(d)
+    if a.capitalize() == "Milimeters" and c.capitalize() == "Inches":
+        d = (float(b)*.039)
+        print(d)
+    if a.capitalize() == "Milimeters" and c.capitalize() == "Yards":
+        d = (float(b)*.0011)
+        print(d)
+    if a.capitalize() == "Milimeters" and c.capitalize() == "Feet":
+        d = (float(b)*.0033)
+        print(d)
